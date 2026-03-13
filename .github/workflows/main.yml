@@ -1,8 +1,8 @@
- name: Verify Human Identity
+name: Verify Human Identity
 
 on:
   push:
-    branches: [ "dhani" ]
+    branches: [ "dhani", "develop-1" ]
   workflow_dispatch:
     inputs:
       agent_name:
